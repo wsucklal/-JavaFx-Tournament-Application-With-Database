@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TennisBallGames.AddScoreController">
+    <children>
+        <Text layoutX="157.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Match Score">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Text>
+        <Text layoutX="101.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Match" />
+        <Text layoutX="36.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Home Team Score" />
+        <Text layoutX="35.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visitor Team Score" />
+        <Button fx:id="saveBtn" layoutX="296.0" layoutY="251.0" mnemonicParsing="false" onAction="#save" prefHeight="26.0" prefWidth="62.0" text="Save" />
+        <Button fx:id="cancelBtn" layoutX="188.0" layoutY="251.0" mnemonicParsing="false" onAction="#cancel" prefHeight="26.0" prefWidth="62.0" text="Cancel" />
+        <TextField fx:id="homeTeamScore" layoutX="149.0" layoutY="143.0" />
+        <TextField fx:id="visitorTeamScore" layoutX="149.0" layoutY="183.0" />
+        <ComboBox fx:id="matchBox" layoutX="149.0" layoutY="100.0" prefHeight="27.0" prefWidth="210.0" />
+    </children>
+</AnchorPane>
